@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Portal 2025 - Government Degree College Beerwah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <i class="fas fa-graduation-cap me-2"></i>
+                <span class="college-name">Government Degree College Beerwah | Admission 2025</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" onclick="showSection('home')">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="programsDropdown" role="button" data-bs-toggle="dropdown">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('COMPUTER APPLICATIONS')">Computer Applications (70)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('ZOOLOGY')">Zoology (62)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('POLITICAL SCIENCE')">Political Science (56)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('EDUCATION')">Education (17)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('SOCIAL WORK')">Social Work (16)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('HISTORY')">History (12)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('BIO-TECHNOLOGY')">Bio-Technology (11)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('ARABIC LITERATURE')">Arabic Literature (9)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('CHEMISTRY')">Chemistry (9)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('BOTANY')">Botany (9)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('ACCOUNTING & TAXATION (COMMERCE)')">Accounting & Taxation (6)</a></li>
+                            <li><a class="dropdown-item" href="#programs" onclick="showProgram('ECONOMICS')">Economics (2)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search" onclick="showSection('search')">Student Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" onclick="showSection('about')">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" onclick="showSection('contact')">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <h1 class="hero-title">Admission Portal 2025</h1>
+                            <p class="hero-subtitle">Government Degree College Beerwah</p>
+                            <p class="hero-description">Official admission portal featuring complete records of all 279 enrolled students across 12 bachelor's programs. Search for student information, explore academic programs, and access comprehensive admission data.</p>
+                            <div class="hero-stats mt-4">
+                                <div class="d-flex flex-wrap gap-4">
+                                    <div class="stat-badge">
+                                        <i class="fas fa-users me-2"></i>
+                                        <span id="totalStudentsCount">279 Students</span>
+                                    </div>
+                                    <div class="stat-badge">
+                                        <i class="fas fa-book me-2"></i>
+                                        <span id="totalProgramsCount">12 Programs</span>
+                                    </div>
+                                    <div class="stat-badge">
+                                        <i class="fas fa-calendar me-2"></i>
+                                        <span>Academic Year 2025-26</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="quick-search-card">
+                                <h5 class="card-title">
+                                    <i class="fas fa-search me-2"></i>
+                                    Quick Student Search
+                                </h5>
+                                <p class="text-muted mb-3">Search among real student records</p>
+                                <input type="text" class="form-control mb-3" id="quickSearch" 
+                                       placeholder="Enter student name or registration number">
+                                <button class="btn btn-primary w-100" onclick="performQuickSearch()">
+                                    <i class="fas fa-search me-2"></i>Search Student Records
+                                </button>
+                                <div class="mt-3">
+                                    <small class="text-muted">
+                                        <i class="fas fa-info-circle me-1"></i>
+                                        Try searching: SAKIB YOUSUF, MEHVISH FAYAZ, or 533300016064
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Dashboard (Dynamic) -->
+            <div class="statistics-section py-5">
+                <div class="container">
+                    <h2 class="section-title text-center mb-4">Admission Statistics</h2>
+                    <p class="text-center text-muted mb-5">Visual insights generated from real records in admission_data.json</p>
+                    <div class="row g-4">
+                        <div class="col-lg-8">
+                            <div class="card shadow-sm">
+                                <div class="card-header bg-white">
+                                    <strong><i class="fas fa-chart-bar me-2 text-primary"></i>Students per Program</strong>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="programBarChart" height="140"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-header bg-white">
+                                    <strong><i class="fas fa-chart-pie me-2 text-success"></i>Minor Subject Distribution</strong>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="minorPieChart" height="250"></canvas>
+                                    <small class="text-muted d-block mt-2">Top minors; remaining grouped as “Other”.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 mt-1">
+                        <div class="col-lg-12">
+                            <div class="card shadow-sm">
+                                <div class="card-header bg-white">
+                                    <strong><i class="fas fa-layer-group me-2 text-warning"></i>Multidisciplinary Courses Popularity</strong>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="multiBarChart" height="110"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <!-- Real Student Examples -->
+                    <!-- <div class="row g-4 mb-5">
+                        <div class="col-lg-12">
+                            <div class="featured-students-card">
+                                <h5 class="text-center mb-4">
+                                    <i class="fas fa-star text-warning me-2"></i>
+                                    Sample Real Student Records
+                                </h5>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <div class="sample-student-card" onclick="showStudentDetails('533300016064')">
+                                            <h6>SAKIB YOUSUF</h6>
+                                            <p class="mb-1"><small>Reg: 533300016064</small></p>
+                                            <p class="mb-0"><small class="text-primary">Accounting & Taxation</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sample-student-card" onclick="showStudentDetails('253511359456')">
+                                            <h6>MEHVISH FAYAZ</h6>
+                                            <p class="mb-1"><small>Reg: 253511359456</small></p>
+                                            <p class="mb-0"><small class="text-primary">Accounting & Taxation</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sample-student-card" onclick="showStudentDetails('533300036398')">
+                                            <h6>Zubair Ahmad Ganai</h6>
+                                            <p class="mb-1"><small>Reg: 533300036398</small></p>
+                                            <p class="mb-0"><small class="text-primary">Arabic Literature</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <small class="text-muted">
+                                        <i class="fas fa-info-circle me-1"></i>
+                                        Click on any card to view complete student details
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Program Overview -->
+                    <div class="program-overview mt-5">
+                        <h3 class="text-center mb-4">Academic Programs & Real Enrollment Data</h3>
+                        <div class="row g-3" id="programCards">
+                            <!-- Program cards will be populated by JavaScript -->
+                        </div>
+                        <div class="text-center mt-4">
+                            <p class="text-muted">
+                                <i class="fas fa-database me-1"></i>
+                                All data represents actual student enrollments for Academic Year 2025-26
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="section">
+            <div class="container">
+                <div class="program-header mb-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#home" onclick="showSection('home')">Home</a></li>
+                            <li class="breadcrumb-item active" id="programBreadcrumb">Programs</li>
+                        </ol>
+                    </nav>
+                    <h2 id="programTitle">Program Details</h2>
+                    <p class="text-muted">Real student data from official admission records</p>
+                </div>
+                
+                <div class="program-controls mb-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="programSearch" 
+                                   placeholder="Search students by name or registration number">
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select" id="sortSelect">
+                                <option value="name">Sort by Name (A-Z)</option>
+                                <option value="regNo">Sort by Registration Number</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-outline-secondary w-100" onclick="showSection('home')">
+                                <i class="fas fa-arrow-left me-2"></i>Back to Home
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="students-container">
+                    <div id="studentsTable" class="table-responsive">
+                        <div class="text-center p-5">
+                            <i class="fas fa-users fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">Select a program to view student details</h5>
+                            <p class="text-muted">Choose from the navigation menu or return to home page</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Search Section -->
+        <section id="search" class="section">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Student Search Portal</h2>
+                <p class="text-center text-muted mb-5">Search through all 279 real student records from Government Degree College Beerwah</p>
+                
+                <div class="search-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="search-card">
+                                <div class="search-input-group mb-4">
+                                    <input type="text" class="form-control search-input" id="globalSearch" 
+                                           placeholder="Enter student name, registration number, or program">
+                                    <button class="btn btn-primary search-btn" onclick="performGlobalSearch()">
+                                        <i class="fas fa-search"></i>
+                                        Search Records
+                                    </button>
+                                </div>
+                                <div id="searchSuggestions" class="suggestions-list"></div>
+                                <div class="search-tips">
+                                    <h6>Search Examples:</h6>
+                                    <div class="d-flex flex-wrap gap-2 mt-2">
+                                        <button class="btn btn-sm btn-outline-primary" onclick="document.getElementById('globalSearch').value='SAKIB'; performGlobalSearch();">
+                                            SAKIB YOUSUF
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-primary" onclick="document.getElementById('globalSearch').value='533300016064'; performGlobalSearch();">
+                                            533300016064
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-primary" onclick="document.getElementById('globalSearch').value='Computer'; performGlobalSearch();">
+                                            Computer Applications
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-primary" onclick="document.getElementById('globalSearch').value='Arabic'; performGlobalSearch();">
+                                            Arabic Literature
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="searchResults" class="search-results mt-4" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">About Government Degree College Beerwah</h2>
+                
+                <div class="row g-4">
+                    <div class="col-lg-8">
+                        <div class="about-content">
+                            <p class="lead">Government Degree College Beerwah is a prestigious institution of higher education, committed to providing quality academic programs and fostering intellectual growth among students in the Beerwah region of Kashmir.</p>
+                            
+                            <h4>Admission Process 2025 - Complete</h4>
+                            <p>The admission process for Academic Year 2025-26 has been successfully completed with a total of <strong>279 students</strong> enrolled across <strong>12 different bachelor's programs</strong>. This portal provides access to complete and authentic student records.</p>
+                            
+                            <h4>Academic Programs Offered</h4>
+                            <p>Our college offers comprehensive bachelor's degree programs with honours, affiliated with the University of Kashmir:</p>
+                            
+                            <div class="row g-3 mt-3">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled program-list">
+                                        <li><i class="fas fa-laptop text-primary me-2"></i>Computer Applications (70 students)</li>
+                                        <li><i class="fas fa-microscope text-primary me-2"></i>Zoology (62 students)</li>
+                                        <li><i class="fas fa-balance-scale text-primary me-2"></i>Political Science (56 students)</li>
+                                        <li><i class="fas fa-chalkboard-teacher text-primary me-2"></i>Education (17 students)</li>
+                                        <li><i class="fas fa-hands-helping text-primary me-2"></i>Social Work (16 students)</li>
+                                        <li><i class="fas fa-landmark text-primary me-2"></i>History (12 students)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled program-list">
+                                        <li><i class="fas fa-dna text-primary me-2"></i>Bio-Technology (11 students)</li>
+                                        <li><i class="fas fa-book-open text-primary me-2"></i>Arabic Literature (9 students)</li>
+                                        <li><i class="fas fa-flask text-primary me-2"></i>Chemistry (9 students)</li>
+                                        <li><i class="fas fa-leaf text-primary me-2"></i>Botany (9 students)</li>
+                                        <li><i class="fas fa-calculator text-primary me-2"></i>Accounting & Taxation (6 students)</li>
+                                        <li><i class="fas fa-chart-pie text-primary me-2"></i>Economics (2 students)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4>Course Structure</h4>
+                            <p>Each program includes:</p>
+                            <ul>
+                                <li>Major subject with honours</li>
+                                <li>Minor subject specialization</li>
+                                <li>Multidisciplinary courses (Semester 1 & 2)</li>
+                                <li>Skill Enhancement Courses</li>
+                                <li>Value Added Courses</li>
+                                <li>Ability Enhancement Courses</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="info-card mb-4">
+                            <h5>Quick Facts</h5>
+                            <div class="fact-item">
+                                <span class="fact-label">Institution Type:</span>
+                                <span class="fact-value">Government College</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Location:</span>
+                                <span class="fact-value">Beerwah, Budgam District, Kashmir</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">University Affiliation:</span>
+                                <span class="fact-value">University of Kashmir</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Academic Year:</span>
+                                <span class="fact-value">2025-2026</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Total Students:</span>
+                                <span class="fact-value" id="factsTotalStudents">279 (Real Data)</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Programs Offered:</span>
+                                <span class="fact-value" id="factsTotalPrograms">12 Bachelor's Programs</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <h5>Data Authenticity</h5>
+                            <div class="alert alert-success">
+                                <i class="fas fa-shield-alt me-2"></i>
+                                <strong>Verified Records</strong><br>
+                                All student data in this portal represents authentic admission records from the college's official database.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Contact Information</h2>
+                
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="contact-info">
+                            <h4>Get in Touch</h4>
+                            <p>For any queries related to admissions, academic programs, student information, or portal assistance, please contact us:</p>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h6>Address</h6>
+                                    <p>Government Degree College Beerwah<br>Beerwah, Budgam District<br>Jammu and Kashmir, India - 193101</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h6>Phone</h6>
+                                    <p>+91-1951-XXXXXX<br>Office Hours: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h6>Email</h6>
+                                    <p>info@gdcbeerwah.edu.in<br>admissions@gdcbeerwah.edu.in</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-globe"></i>
+                                <div>
+                                    <h6>Portal Support</h6>
+                                    <p>For technical issues with this admission portal or student record queries, contact the IT department during office hours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <div class="important-notices">
+                            <h4>Important Notices</h4>
+                            <div class="notice-item">
+                                <div class="notice-date">Aug 12, 2025</div>
+                                <h6>Admission Process Complete</h6>
+                                <p>All admission formalities for Academic Year 2025-26 have been completed successfully. Total 279 students have been enrolled across 12 programs.</p>
+                            </div>
+                            
+                            <div class="notice-item">
+                                <div class="notice-date">Aug 10, 2025</div>
+                                <h6>Classes Commencing Soon</h6>
+                                <p>Regular classes will commence from August 20, 2025. Students are advised to collect their time tables and course materials from respective departments.</p>
+                            </div>
+                            
+                            <div class="notice-item">
+                                <div class="notice-date">Aug 05, 2025</div>
+                                <h6>Fee Submission Reminder</h6>
+                                <p>Last date for fee submission is August 25, 2025. Late fee charges will be applicable after the due date. Students can verify their details using this portal.</p>
+                            </div>
+
+                            <div class="notice-item">
+                                <div class="notice-date">Aug 01, 2025</div>
+                                <h6>Student Portal Launch</h6>
+                                <p>This official student portal has been launched to provide easy access to admission records and student information. All data is authentic and verified.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>Government Degree College Beerwah</h5>
+                    <p>Committed to excellence in higher education and holistic development of students. Proudly serving the Beerwah region with quality academic programs.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                        <li><a href="#about" onclick="showSection('about')">About College</a></li>
+                        <li><a href="#search" onclick="showSection('search')">Student Search</a></li>
+                        <li><a href="#contact" onclick="showSection('contact')">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h5>Academic Programs</h5>
+                    <ul class="footer-links">
+                        <li><a href="#programs" onclick="showProgram('COMPUTER APPLICATIONS')">Computer Applications (70)</a></li>
+                        <li><a href="#programs" onclick="showProgram('ZOOLOGY')">Zoology (62)</a></li>
+                        <li><a href="#programs" onclick="showProgram('POLITICAL SCIENCE')">Political Science (56)</a></li>
+                        <li><a href="#programs" onclick="showProgram('EDUCATION')">Education (17)</a></li>
+                        <li><a href="#" onclick="showSection('about')">View All Programs...</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 Government Degree College Beerwah. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Academic Year 2025-2026 | Real Student Data Portal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Student Detail Modal -->
+    <div class="modal fade" id="studentModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="studentModalTitle">Student Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="studentModalBody">
+                    <!-- Student details will be populated here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="window.print()">
+                        <i class="fas fa-print me-1"></i>Print Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center p-4">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <p class="mt-3 mb-0">Loading student data...</p>
+                    <small class="text-muted">Please wait while we fetch real admission records</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Chart.js for data visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
