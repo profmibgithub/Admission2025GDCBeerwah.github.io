@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDC Beerwah • Admissions 2025</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-mortarboard-fill me-2"></i>
+                GDC Beerwah • Admissions 2025
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-page="home">
+                            <i class="bi bi-house-fill me-1"></i>Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#majors" data-page="majors">
+                            <i class="bi bi-book-fill me-1"></i>Majors
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#students" data-page="students">
+                            <i class="bi bi-people-fill me-1"></i>Students
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-page="about">
+                            <i class="bi bi-info-circle-fill me-1"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Loading State -->
+        <div id="loading-screen" class="d-flex flex-column align-items-center justify-content-center min-vh-100">
+            <div class="text-center">
+                <div class="spinner-border text-primary mb-3" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <h4>Loading Admission Data...</h4>
+                <p class="text-muted">Preparing 289 student records for Batch 2025</p>
+            </div>
+        </div>
+
+        <!-- Home/Dashboard Page -->
+        <div id="home-page" class="page-content d-none">
+            <div class="container-fluid">
+                <!-- Hero Section -->
+                <div class="hero-section text-center py-5 mb-5">
+                    <div class="container">
+                        <h1 class="display-4 fw-bold mb-3">Government Degree College Beerwah</h1>
+                        <p class="lead mb-4">Student Admissions Portal • Batch 2025</p>
+                        <div class="row g-4">
+                            <div class="col-md-3">
+                                <div class="stat-card card h-100 border-0 clickable" data-filter="students">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-people-fill text-primary display-4 mb-3"></i>
+                                        <h3 class="stat-number mb-1" id="total-students">289</h3>
+                                        <p class="text-muted mb-0">Total Students</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="stat-card card h-100 border-0 clickable" data-filter="majors">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-book-fill text-success display-4 mb-3"></i>
+                                        <h3 class="stat-number mb-1" id="total-majors">0</h3>
+                                        <p class="text-muted mb-0">Major Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="stat-card card h-100 border-0 clickable" data-filter="minors">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-journals text-info display-4 mb-3"></i>
+                                        <h3 class="stat-number mb-1" id="total-minors">0</h3>
+                                        <p class="text-muted mb-0">Minor Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="stat-card card h-100 border-0 clickable" data-filter="skills">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-gear-fill text-warning display-4 mb-3"></i>
+                                        <h3 class="stat-number mb-1" id="total-skills">0</h3>
+                                        <p class="text-muted mb-0">Skill Development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-bar-chart-fill me-2"></i>Students by Major Course
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-container" style="position: relative; height: 400px;">
+                                    <canvas id="majors-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-graph-up me-2"></i>Students by Minor Course
+                                </h5>
+                                <button id="toggle-minors-chart" class="btn btn-sm btn-outline-primary">
+                                    Show All
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-container" style="position: relative; height: 400px;">
+                                    <canvas id="minors-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-pie-chart-fill me-2"></i>Skill Development Courses
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="chart-container" style="position: relative; height: 350px;">
+                                    <canvas id="skills-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="card h-100">
+                                    <div class="card-header">
+                                        <h6 class="mb-0">Top 5 Major Courses</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="top-majors-list"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card h-100">
+                                    <div class="card-header">
+                                        <h6 class="mb-0">Top 5 Minor Courses</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="top-minors-list"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Majors Page -->
+        <div id="majors-page" class="page-content d-none">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Sidebar -->
+                    <div class="col-lg-3 col-md-4">
+                        <div class="sidebar-content sticky-top" style="top: 80px;">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-3">Major Courses</h5>
+                                    <div class="search-box">
+                                        <input type="text" id="major-search" class="form-control form-control-sm" 
+                                               placeholder="Search majors...">
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div id="majors-list" class="list-group list-group-flush"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Main Content -->
+                    <div class="col-lg-9 col-md-8">
+                        <div id="major-details" class="d-none">
+                            <!-- Summary Strip -->
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <div class="col-md-4">
+                                            <h4 id="major-student-count" class="text-primary mb-1">0</h4>
+                                            <small class="text-muted">Total Students</small>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6 id="major-top-minor" class="mb-1">-</h6>
+                                            <small class="text-muted">Most Common Minor</small>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6 id="major-top-skill" class="mb-1">-</h6>
+                                            <small class="text-muted">Most Common Skill</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tabs -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs card-header-tabs" id="major-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#students-tab" data-bs-toggle="tab">
+                                                <i class="bi bi-people me-1"></i>Students
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#breakdown-tab" data-bs-toggle="tab">
+                                                <i class="bi bi-pie-chart me-1"></i>Breakdown
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <!-- Students Tab -->
+                                        <div class="tab-pane fade show active" id="students-tab">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead class="table-light sticky-top">
+                                                        <tr>
+                                                            <th class="sortable" data-sort="classRollNo">
+                                                                Class Roll No. <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="registrationNumber">
+                                                                Registration No. <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="studentName">
+                                                                Name <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="fatherName">
+                                                                Father Name <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="motherName">
+                                                                Mother Name <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="minorCourse">
+                                                                Minor Course <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                            <th class="sortable" data-sort="skillDevCourse">
+                                                                Skill Development <i class="bi bi-arrow-down-up"></i>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="major-students-table"></tbody>
+                                                </table>
+                                            </div>
+                                            <div id="major-pagination" class="d-flex justify-content-between align-items-center mt-3"></div>
+                                        </div>
+
+                                        <!-- Breakdown Tab -->
+                                        <div class="tab-pane fade" id="breakdown-tab">
+                                            <div class="row g-4">
+                                                <div class="col-lg-6">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <h6 class="mb-0">Minor Course Distribution</h6>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="chart-container" style="position: relative; height: 300px;">
+                                                                <canvas id="major-breakdown-minor-chart"></canvas>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <h6 class="mb-0">Skill Development Distribution</h6>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="chart-container" style="position: relative; height: 300px;">
+                                                                <canvas id="major-breakdown-skill-chart"></canvas>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- No Major Selected -->
+                        <div id="no-major-selected" class="text-center py-5">
+                            <i class="bi bi-book text-muted display-1 mb-3"></i>
+                            <h4 class="text-muted">Select a Major Course</h4>
+                            <p class="text-muted">Choose a major course from the sidebar to view detailed information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Students Page -->
+        <div id="students-page" class="page-content d-none">
+            <div class="container-fluid">
+                <!-- Search Panel -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="bi bi-search me-2"></i>Student Search
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-4">
+                                <label class="form-label">Student Name</label>
+                                <input type="text" id="search-name" class="form-control" 
+                                       placeholder="Search by name...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Registration Number</label>
+                                <input type="text" id="search-registration" class="form-control" 
+                                       placeholder="Registration number...">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Class Roll No.</label>
+                                <input type="text" id="search-roll" class="form-control" 
+                                       placeholder="Roll number...">
+                            </div>
+                        </div>
+                        
+                        <!-- Advanced Filters -->
+                        <div class="collapse" id="advanced-filters">
+                            <hr>
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <label class="form-label">Major Course</label>
+                                    <select id="filter-major" class="form-select" multiple>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">Minor Course</label>
+                                    <select id="filter-minor" class="form-select" multiple>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">Skill Development</label>
+                                    <select id="filter-skill" class="form-select" multiple>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex gap-2 mt-3">
+                            <button type="button" class="btn btn-outline-secondary" 
+                                    data-bs-toggle="collapse" data-bs-target="#advanced-filters">
+                                <i class="bi bi-sliders me-1"></i>Advanced Filters
+                            </button>
+                            <button type="button" id="clear-filters" class="btn btn-outline-warning">
+                                <i class="bi bi-x-circle me-1"></i>Clear All
+                            </button>
+                            <button type="button" id="export-results" class="btn btn-success ms-auto">
+                                <i class="bi bi-download me-1"></i>Export CSV
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Table -->
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">
+                            <i class="bi bi-table me-2"></i>Search Results 
+                            <span id="results-count" class="badge bg-primary ms-2">0</span>
+                        </h5>
+                        <div class="d-flex gap-2 align-items-center">
+                            <small class="text-muted">Per page:</small>
+                            <select id="students-per-page" class="form-select form-select-sm" style="width: auto;">
+                                <option value="10">10</option>
+                                <option value="25" selected>25</option>
+                                <option value="50">50</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-light sticky-top">
+                                    <tr>
+                                        <th class="sortable" data-sort="classRollNo">
+                                            Class Roll No. <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th class="sortable" data-sort="registrationNumber">
+                                            Registration No. <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th class="sortable" data-sort="studentName">
+                                            Name <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th class="sortable" data-sort="majorCourse">
+                                            Major Course <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th class="sortable" data-sort="minorCourse">
+                                            Minor Course <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th class="sortable" data-sort="skillDevCourse">
+                                            Skill Development <i class="bi bi-arrow-down-up"></i>
+                                        </th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="students-results-table"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div id="students-pagination" class="d-flex justify-content-between align-items-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about-page" class="page-content d-none">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="text-center mb-5">
+                                    <i class="bi bi-mortarboard-fill text-primary display-3 mb-3"></i>
+                                    <h1 class="display-4 fw-bold">Government Degree College Beerwah</h1>
+                                    <p class="lead text-muted">Student Admissions Portal</p>
+                                </div>
+
+                                <div class="row g-4 mb-5">
+                                    <div class="col-md-6">
+                                        <div class="info-card p-4 rounded">
+                                            <h5 class="mb-3">
+                                                <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                                Location
+                                            </h5>
+                                            <p class="mb-0">Beerwah, Jammu and Kashmir, India</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="info-card p-4 rounded">
+                                            <h5 class="mb-3">
+                                                <i class="bi bi-calendar-event-fill text-success me-2"></i>
+                                                Academic Session
+                                            </h5>
+                                            <p class="mb-0">2025 Batch</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-5">
+                                    <h3 class="mb-3">About This Portal</h3>
+                                    <p class="lead">
+                                        This admission data portal provides comprehensive access to student enrollment 
+                                        information for the 2025 academic batch at Government Degree College Beerwah.
+                                    </p>
+                                    <p>
+                                        The portal features advanced search capabilities, detailed student profiles, 
+                                        interactive data visualizations, and comprehensive reporting tools. All data 
+                                        is sourced directly from the college's official admission records for Batch 2025.
+                                    </p>
+                                </div>
+
+                                <div class="mb-5">
+                                    <h3 class="mb-3">Features</h3>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>Real-time data processing</span>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>Advanced search and filtering</span>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>Interactive data visualizations</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>CSV data export capabilities</span>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>Mobile-responsive design</span>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                                <span>Accessibility compliant</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alert alert-info">
+                                    <i class="bi bi-info-circle-fill me-2"></i>
+                                    <strong>Data Source:</strong> All information displayed in this portal is sourced 
+                                    from the official admission records for Batch 2025 with 289 enrolled students.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Student Details Modal -->
+    <div class="modal fade" id="student-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="bi bi-person-fill me-2"></i>Student Details
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="student-modal-body">
+                    <!-- Student details will be populated here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h6 class="mb-1">Government Degree College Beerwah</h6>
+                    <p class="mb-0 small text-muted">Batch 2025 • 289 Students Enrolled</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <small class="text-muted">
+                        <i class="bi bi-calendar3 me-1"></i>
+                        Academic Session 2025
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/66c1c819d6e12feebe82375f44709acb/00547035-e392-4c59-8778-893294c0d5da/47b68840.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
