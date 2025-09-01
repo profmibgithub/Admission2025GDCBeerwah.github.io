@@ -144,7 +144,7 @@ class AdmissionsPortal {
             }
             
             // Fallback: Try to load CSV from external file
-            const response = await fetch('./Admission-Data-2025-with-Roll-Numbers-for-Web-Portal.csv');
+            const response = await fetch('./admissiondata.csv');
             if (!response.ok) {
                 throw new Error('CSV file not found');
             }
