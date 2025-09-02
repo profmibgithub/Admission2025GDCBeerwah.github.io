@@ -29,7 +29,7 @@ async function loadData() {
     try {
         console.log('Loading data...');
         
-        const response = await fetch('https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/91408082ed90e0927512ec3bde078cf9/117f1c5d-55b1-4ba2-88a2-0642cfa3a2e0/5dd0095b.json');
+        const response = await fetch('/admission_data.json');
         
         if (!response.ok) {
             throw new Error('Failed to load data');
