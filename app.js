@@ -29,7 +29,7 @@ async function loadData() {
     try {
         console.log('Loading data...');
         
-        const response = await fetch('/admission_data.json');
+        const response = await fetch('./admission_data.json');
         
         if (!response.ok) {
             throw new Error('Failed to load data');
