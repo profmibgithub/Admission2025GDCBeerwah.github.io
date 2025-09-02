@@ -4623,10 +4623,26 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300042694",
+      "Class Roll No.": 25290,
+      "Student Name": "PAKEEZA AKHTER",
+      "Father Name": "GHULAM NABI LONE",
+      "Mother Name": "JANA BANO",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR",
+      "Minor Course": "URDU",
+      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
+      "Multi Disciplinary Semester 2": "SOCIAL WORK",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
   ],
   "statistics": {
-    "totalStudents": 289,
+    "totalStudents": 290,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4634,7 +4650,7 @@
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 70,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 51,
-      "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 19,
+      "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 20,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 16,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
@@ -4651,7 +4667,7 @@
       "BOTANY": 23,
       "POLITICAL SCIENCE": 20,
       "ZOOLOGY": 17,
-      "URDU LITERATURE": 16,
+      "URDU LITERATURE": 17,
       "HISTORY": 13,
       "BIOTECHNOLOGY": 12,
       "CHEMISTRY": 9,
@@ -4664,7 +4680,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 70,
-      "EARLY CHILDHOOD CARE & EDUCATION": 52,
+      "EARLY CHILDHOOD CARE & EDUCATION": 53,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
@@ -4677,7 +4693,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 74,
+      "ENVIRONMENTAL SCIENCE": 75,
       "EDUCATION": 49,
       "WATER MANAGEMENT": 45,
       "ENGLISH LITERATURE": 38,
@@ -4693,7 +4709,7 @@
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 66,
+      "SOCIAL WORK": 67,
       "ENGLISH LITERATURE": 53,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
