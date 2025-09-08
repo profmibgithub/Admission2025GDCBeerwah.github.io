@@ -4639,10 +4639,26 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300045133",
+      "Class Roll No.": 25291,
+      "Student Name": "SHAISTA MUSHTAQ",
+      "Father Name": "MUSHTAQ AHMAD BABA",
+      "Mother Name": "ATIQA BANO",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR",
+      "Minor Course": "EDUCATION",
+      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
+      "Multi Disciplinary Semester 2": "SOCIAL WORK",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
   ],
   "statistics": {
-    "totalStudents": 290,
+    "totalStudents": 291,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4656,12 +4672,12 @@
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
       "KU: BACHELORS (HONOURS) WITH CHEMISTRY AS MAJOR": 11,
-      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 10,
+      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 11,
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
     },
     "minorCounts": {
       "APPLIED COMPUTING": 70,
-      "EDUCATION": 32,
+      "EDUCATION": 33,
       "WATER MANAGEMENT": 30,
       "SOCIAL WORK": 24,
       "BOTANY": 23,
@@ -4680,7 +4696,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 70,
-      "EARLY CHILDHOOD CARE & EDUCATION": 53,
+      "EARLY CHILDHOOD CARE & EDUCATION": 54,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
@@ -4693,7 +4709,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 75,
+      "ENVIRONMENTAL SCIENCE": 76,
       "EDUCATION": 49,
       "WATER MANAGEMENT": 45,
       "ENGLISH LITERATURE": 38,
@@ -4709,7 +4725,7 @@
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 67,
+      "SOCIAL WORK": 68,
       "ENGLISH LITERATURE": 53,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
