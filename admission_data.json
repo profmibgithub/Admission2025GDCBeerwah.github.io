@@ -2502,7 +2502,7 @@
       "Student Name": "Saqib ahmad sofi",
       "Father Name": "ghulam mohmmad sofi",
       "Mother Name": "dilshada bano",
-      "Major Course": "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR",
       "Minor Course": "SOCIAL WORK",
       "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
       "Multi Disciplinary Semester 2": "WATER MANAGEMENT",
@@ -4701,10 +4701,10 @@
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 20,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 17,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
-      "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
+      "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
       "KU: BACHELORS (HONOURS) WITH CHEMISTRY AS MAJOR": 11,
-      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 11,
+      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 12,
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
     },
     "minorCounts": {
