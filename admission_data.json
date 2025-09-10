@@ -4687,15 +4687,31 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300045338",
+      "Class Roll No.": 25294,
+      "Student Name": "Kulsum Bashir",
+      "Father Name": "bashir ahmad ganie",
+      "Mother Name": "rubeena bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR",
+      "Minor Course": "APPLIED COMPUTING",
+      "Multi Disciplinary Semester 1": "EDUCATION",
+      "Multi Disciplinary Semester 2": "PUBLIC ADMINISTRATION",
+      "Skill Development Course": "PROGRAMMING WITH C (BASIC)",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
   ],
   "statistics": {
-    "totalStudents": 293,
+    "totalStudents": 294,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
     "majorCounts": {
-      "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
+      "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 72,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 51,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 20,
@@ -4708,7 +4724,7 @@
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
     },
     "minorCounts": {
-      "APPLIED COMPUTING": 71,
+      "APPLIED COMPUTING": 72,
       "EDUCATION": 33,
       "WATER MANAGEMENT": 31,
       "SOCIAL WORK": 24,
@@ -4727,7 +4743,7 @@
       "Education": 1
     },
     "skillCounts": {
-      "PROGRAMMING WITH C (BASIC)": 71,
+      "PROGRAMMING WITH C (BASIC)": 72,
       "EARLY CHILDHOOD CARE & EDUCATION": 54,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
@@ -4742,7 +4758,7 @@
     },
     "md1Counts": {
       "ENVIRONMENTAL SCIENCE": 77,
-      "EDUCATION": 49,
+      "EDUCATION": 50,
       "WATER MANAGEMENT": 45,
       "ENGLISH LITERATURE": 38,
       "INTRODUCTION TO COMPUTERS": 29,
@@ -4764,7 +4780,7 @@
       "INTRODUCTION TO COMPUTERS": 22,
       "BIO-TECHNOLOGY": 21,
       "URDU LITERATURE": 17,
-      "PUBLIC ADMINISTRATION": 17,
+      "PUBLIC ADMINISTRATION": 18,
       "BOTANY": 4,
       "ARABIC LITERATURE": 4,
       "KASHMIRI LITERATURE": 3,
