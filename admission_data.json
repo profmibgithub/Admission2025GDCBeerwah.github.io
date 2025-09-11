@@ -4615,7 +4615,7 @@
       "Father Name": "GHULAM NABI LONE",
       "Mother Name": "JANA BANO",
       "Major Course": "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR",
-      "Minor Course": "URDU",
+      "Minor Course": "SOCIAL WORK",
       "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
       "Multi Disciplinary Semester 2": "SOCIAL WORK",
       "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
@@ -4690,12 +4690,12 @@
     }
   ],
   "statistics": {
-    "totalStudents": 294,
+    "totalStudents": 293,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
     "majorCounts": {
-      "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 72,
+      "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 51,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 20,
@@ -4708,14 +4708,14 @@
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
     },
     "minorCounts": {
-      "APPLIED COMPUTING": 72,
+      "APPLIED COMPUTING": 71,
       "EDUCATION": 33,
       "WATER MANAGEMENT": 31,
-      "SOCIAL WORK": 24,
+      "SOCIAL WORK": 23,
       "BOTANY": 22,
       "POLITICAL SCIENCE": 20,
       "ZOOLOGY": 17,
-      "URDU LITERATURE": 17,
+      "URDU LITERATURE": 16,
       "HISTORY": 13,
       "BIOTECHNOLOGY": 13,
       "CHEMISTRY": 9,
@@ -4727,7 +4727,7 @@
       "Education": 1
     },
     "skillCounts": {
-      "PROGRAMMING WITH C (BASIC)": 72,
+      "PROGRAMMING WITH C (BASIC)": 71,
       "EARLY CHILDHOOD CARE & EDUCATION": 54,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
