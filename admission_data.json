@@ -369,22 +369,6 @@
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     },
     {
-      "Registration Number": "533300032874",
-      "Class Roll No.": 25024,
-      "Student Name": "INSHA NAZIR",
-      "Father Name": "NAZIR AHMAD QURASHI",
-      "Mother Name": "DILSHADA NAZIR",
-      "Major Course": "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR",
-      "Minor Course": "WATER MANAGEMENT",
-      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
-      "Multi Disciplinary Semester 2": "ENGLISH LITERATURE",
-      "Skill Development Course": "INTRODUCTION TO MUSHROOM SCIENCE",
-      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
-      "Value Added Course 2": "HEALTH AND WELLNESS",
-      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
-      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
-    },
-    {
       "Registration Number": "533300021495",
       "Class Roll No.": 25025,
       "Student Name": "ZEHRA MOHAMMAD",
@@ -4706,7 +4690,7 @@
     }
   ],
   "statistics": {
-    "totalStudents": 295,
+    "totalStudents": 294,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4715,7 +4699,7 @@
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 51,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
-      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 17,
+      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 16,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
@@ -4726,7 +4710,7 @@
     "minorCounts": {
       "APPLIED COMPUTING": 71,
       "EDUCATION": 33,
-      "WATER MANAGEMENT": 31,
+      "WATER MANAGEMENT": 30,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
       "POLITICAL SCIENCE": 20,
@@ -4746,7 +4730,7 @@
       "PROGRAMMING WITH C (BASIC)": 71,
       "EARLY CHILDHOOD CARE & EDUCATION": 55,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
-      "INTRODUCTION TO MUSHROOM SCIENCE": 26,
+      "INTRODUCTION TO MUSHROOM SCIENCE": 25,
       "INTERNET BASICS AND HTML": 24,
       "PERSONAL SELLING AND SALESMANSHIP": 22,
       "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 14,
@@ -4757,7 +4741,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 77,
+      "ENVIRONMENTAL SCIENCE": 76,
       "EDUCATION": 50,
       "WATER MANAGEMENT": 46,
       "ENGLISH LITERATURE": 38,
@@ -4774,7 +4758,7 @@
     },
     "md2Counts": {
       "SOCIAL WORK": 68,
-      "ENGLISH LITERATURE": 55,
+      "ENGLISH LITERATURE": 54,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
       "INTRODUCTION TO COMPUTERS": 22,
