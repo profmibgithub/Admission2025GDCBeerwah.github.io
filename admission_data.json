@@ -4687,10 +4687,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300044993",
+      "Class Roll No.": 25296,
+      "Student Name": "tabasum gulzar",
+      "Father Name": "gulzar ahmad shah",
+      "Mother Name": "shamima",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR",
+      "Minor Course": "Zoology",
+      "Multi Disciplinary Semester 1": "Water Management",
+      "Multi Disciplinary Semester 2": "Social Work",
+      "Skill Development Course": "INTRODUCTION TO MUSHROOM SCIENCE",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
+    
   ],
   "statistics": {
-    "totalStudents": 294,
+    "totalStudents": 296,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4699,7 +4716,7 @@
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 51,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
-      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 16,
+      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 17,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
@@ -4714,7 +4731,7 @@
       "SOCIAL WORK": 24,
       "BOTANY": 22,
       "POLITICAL SCIENCE": 20,
-      "ZOOLOGY": 17,
+      "ZOOLOGY": 18,
       "URDU LITERATURE": 16,
       "HISTORY": 13,
       "BIOTECHNOLOGY": 13,
@@ -4730,7 +4747,7 @@
       "PROGRAMMING WITH C (BASIC)": 71,
       "EARLY CHILDHOOD CARE & EDUCATION": 55,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
-      "INTRODUCTION TO MUSHROOM SCIENCE": 25,
+      "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
       "PERSONAL SELLING AND SALESMANSHIP": 22,
       "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 14,
@@ -4743,7 +4760,7 @@
     "md1Counts": {
       "ENVIRONMENTAL SCIENCE": 76,
       "EDUCATION": 50,
-      "WATER MANAGEMENT": 46,
+      "WATER MANAGEMENT": 47,
       "ENGLISH LITERATURE": 38,
       "INTRODUCTION TO COMPUTERS": 28,
       "URDU LITERATURE": 19,
@@ -4757,7 +4774,7 @@
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 68,
+      "SOCIAL WORK": 69,
       "ENGLISH LITERATURE": 54,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
