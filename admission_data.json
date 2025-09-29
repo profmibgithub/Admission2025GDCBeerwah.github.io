@@ -4719,11 +4719,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300046129",
+      "Class Roll No.": 25298,
+      "Student Name": "asiya akhter",
+      "Father Name": "haider ali khan",
+      "Mother Name": "shahzada",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR",
+      "Minor Course": "Computer Applications",
+      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
+      "Multi Disciplinary Semester 2": "URDU LITERATURE",
+      "Skill Development Course": "PROGRAMMING WITH C (BASIC)",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
   "statistics": {
-    "totalStudents": 297,
+    "totalStudents": 298,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4732,7 +4748,7 @@
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 52,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
-      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 17,
+      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 18,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
@@ -4754,13 +4770,13 @@
       "CHEMISTRY": 9,
       "ECONOMICS": 8,
       "Zoology": 6,
-      "COMPUTER APPLICATIONS": 5,
+      "COMPUTER APPLICATIONS": 6,
       "Physics": 2,
       "PHYSICS": 1,
       "Education": 1
     },
     "skillCounts": {
-      "PROGRAMMING WITH C (BASIC)": 71,
+      "PROGRAMMING WITH C (BASIC)": 72,
       "EARLY CHILDHOOD CARE & EDUCATION": 55,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
@@ -4774,7 +4790,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 76,
+      "ENVIRONMENTAL SCIENCE": 77,
       "EDUCATION": 50,
       "WATER MANAGEMENT": 47,
       "ENGLISH LITERATURE": 38,
@@ -4796,7 +4812,7 @@
       "WATER MANAGEMENT": 27,
       "INTRODUCTION TO COMPUTERS": 22,
       "BIO-TECHNOLOGY": 21,
-      "URDU LITERATURE": 17,
+      "URDU LITERATURE": 18,
       "PUBLIC ADMINISTRATION": 18,
       "BOTANY": 4,
       "ARABIC LITERATURE": 4,
