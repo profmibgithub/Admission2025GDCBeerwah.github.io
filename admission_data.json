@@ -4735,6 +4735,22 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300045632",
+      "Class Roll No.": 25299,
+      "Student Name": "faaiq gulzar wani",
+      "Father Name": "gulzar ahmad wani",
+      "Mother Name": "afroza bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR",
+      "Minor Course": "POLITICAL SCIENCE",
+      "Multi Disciplinary Semester 1": "EDUCATION",
+      "Multi Disciplinary Semester 2": "ENGLISH LITERATURE",
+      "Skill Development Course": "PERSONAL SELLING AND SALESMANSHIP",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
@@ -4753,7 +4769,7 @@
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
       "KU: BACHELORS (HONOURS) WITH CHEMISTRY AS MAJOR": 11,
-      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 12,
+      "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
     },
     "minorCounts": {
@@ -4762,7 +4778,7 @@
       "WATER MANAGEMENT": 30,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
-      "POLITICAL SCIENCE": 20,
+      "POLITICAL SCIENCE": 21,
       "ZOOLOGY": 18,
       "URDU LITERATURE": 16,
       "HISTORY": 13,
@@ -4781,7 +4797,7 @@
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
-      "PERSONAL SELLING AND SALESMANSHIP": 23,
+      "PERSONAL SELLING AND SALESMANSHIP": 24,
       "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 14,
       "PHY122S-RENEWABLE ENERGY & ENERGY HARVESTING": 10,
       "TARJAMA KAERI": 8,
@@ -4791,7 +4807,7 @@
     },
     "md1Counts": {
       "ENVIRONMENTAL SCIENCE": 77,
-      "EDUCATION": 50,
+      "EDUCATION": 51,
       "WATER MANAGEMENT": 47,
       "ENGLISH LITERATURE": 38,
       "INTRODUCTION TO COMPUTERS": 29,
@@ -4807,7 +4823,7 @@
     },
     "md2Counts": {
       "SOCIAL WORK": 69,
-      "ENGLISH LITERATURE": 55,
+      "ENGLISH LITERATURE": 56,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
       "INTRODUCTION TO COMPUTERS": 22,
