@@ -4751,6 +4751,22 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300047073",
+      "Class Roll No.": 25300,
+      "Student Name": "iqra akram",
+      "Father Name": "mohmmad akram chopan",
+      "Mother Name": "shakeela bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR",
+      "Minor Course": "EDUCATION",
+      "Multi Disciplinary Semester 1": "Water Management",
+      "Multi Disciplinary Semester 2": "SOCIAL WORK",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
@@ -4762,7 +4778,7 @@
     "majorCounts": {
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
-      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 52,
+      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 53,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 18,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
@@ -4774,7 +4790,7 @@
     },
     "minorCounts": {
       "APPLIED COMPUTING": 71,
-      "EDUCATION": 34,
+      "EDUCATION": 35,
       "WATER MANAGEMENT": 30,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
@@ -4793,7 +4809,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 72,
-      "EARLY CHILDHOOD CARE & EDUCATION": 55,
+      "EARLY CHILDHOOD CARE & EDUCATION": 56,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
@@ -4808,7 +4824,7 @@
     "md1Counts": {
       "ENVIRONMENTAL SCIENCE": 77,
       "EDUCATION": 51,
-      "WATER MANAGEMENT": 47,
+      "WATER MANAGEMENT": 48,
       "ENGLISH LITERATURE": 38,
       "INTRODUCTION TO COMPUTERS": 29,
       "URDU LITERATURE": 19,
@@ -4822,7 +4838,7 @@
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 69,
+      "SOCIAL WORK": 70,
       "ENGLISH LITERATURE": 56,
       "ENVIRONMENTAL SCIENCE": 49,
       "WATER MANAGEMENT": 27,
