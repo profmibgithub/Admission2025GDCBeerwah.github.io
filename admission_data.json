@@ -4767,11 +4767,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300047019",
+      "Class Roll No.": 25301,
+      "Student Name": "yawer ahmad lone",
+      "Father Name": "mohd yousf lone",
+      "Mother Name": "fareeda bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR",
+      "Minor Course": "WATER MANAGEMENT",
+      "Multi Disciplinary Semester 1": "ENGLISH LITERATURE",
+      "Multi Disciplinary Semester 2": "EDUCATION",
+      "Skill Development Course": "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
   "statistics": {
-    "totalStudents": 298,
+    "totalStudents": 299,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4780,7 +4796,7 @@
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 53,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
-      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 18,
+      "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 19,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
@@ -4791,7 +4807,7 @@
     "minorCounts": {
       "APPLIED COMPUTING": 71,
       "EDUCATION": 35,
-      "WATER MANAGEMENT": 30,
+      "WATER MANAGEMENT": 31,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
       "POLITICAL SCIENCE": 21,
@@ -4814,7 +4830,7 @@
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
       "PERSONAL SELLING AND SALESMANSHIP": 24,
-      "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 14,
+      "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 15,
       "PHY122S-RENEWABLE ENERGY & ENERGY HARVESTING": 10,
       "TARJAMA KAERI": 8,
       "GENDER SENSITIZATION": 8,
@@ -4825,7 +4841,7 @@
       "ENVIRONMENTAL SCIENCE": 77,
       "EDUCATION": 51,
       "WATER MANAGEMENT": 48,
-      "ENGLISH LITERATURE": 38,
+      "ENGLISH LITERATURE": 39,
       "INTRODUCTION TO COMPUTERS": 29,
       "URDU LITERATURE": 19,
       "HISTORY": 14,
@@ -4851,7 +4867,7 @@
       "KASHMIRI LITERATURE": 3,
       "MATHEMATICS/APPLIED MATHEMATICS": 3,
       "INTRODUCTION TO ACCOUNTING": 2,
-      "EDUCATION": 2
+      "EDUCATION": 3
     }
   },
   "adminPasswordHash": "ca4e6c3421aebe565955f201e37b48afca2f053e7adeb63db813312aa7ca1694"
