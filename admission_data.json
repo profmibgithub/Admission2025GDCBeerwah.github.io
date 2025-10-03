@@ -4847,11 +4847,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300048160",
+      "Class Roll No.": 25306,
+      "Student Name": "KHOOSHBOO RAJA",
+      "Father Name": "ALI MOHAMMAD DAR",
+      "Mother Name": "GULSHAN",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR",
+      "Minor Course": "WATER MANAGEMENT",
+      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
+      "Multi Disciplinary Semester 2": "EDUCATION",
+      "Skill Development Course": "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
   "statistics": {
-    "totalStudents": 303,
+    "totalStudents": 304,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4863,7 +4879,7 @@
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
-      "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
+      "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH CHEMISTRY AS MAJOR": 11,
       "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 13,
       "KU: BACHELORS (HONOURS) WITH ARABIC LITERATURE AS MAJOR": 8
@@ -4871,7 +4887,7 @@
     "minorCounts": {
       "APPLIED COMPUTING": 71,
       "EDUCATION": 35,
-      "WATER MANAGEMENT": 31,
+      "WATER MANAGEMENT": 32,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
       "POLITICAL SCIENCE": 22,
@@ -4890,7 +4906,7 @@
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 73,
       "EARLY CHILDHOOD CARE & EDUCATION": 56,
-      "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
+      "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 46,
       "INTRODUCTION TO MUSHROOM SCIENCE": 27,
       "INTERNET BASICS AND HTML": 24,
       "PERSONAL SELLING AND SALESMANSHIP": 26,
@@ -4902,7 +4918,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 78,
+      "ENVIRONMENTAL SCIENCE": 79,
       "EDUCATION": 51,
       "WATER MANAGEMENT": 49,
       "ENGLISH LITERATURE": 40,
@@ -4931,7 +4947,7 @@
       "KASHMIRI LITERATURE": 3,
       "MATHEMATICS/APPLIED MATHEMATICS": 3,
       "INTRODUCTION TO ACCOUNTING": 2,
-      "EDUCATION": 3
+      "EDUCATION": 4
     }
   },
   "adminPasswordHash": "ca4e6c3421aebe565955f201e37b48afca2f053e7adeb63db813312aa7ca1694"
