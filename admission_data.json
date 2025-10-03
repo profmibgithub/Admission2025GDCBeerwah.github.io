@@ -4831,11 +4831,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300047982",
+      "Class Roll No.": 25305,
+      "Student Name": "SAHIL NAZIR",
+      "Father Name": "NAZIR AHMAD GANIE",
+      "Mother Name": "RAFIQA BANO",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR",
+      "Minor Course": "POLITICAL SCIENCE",
+      "Multi Disciplinary Semester 1": "ENVIRONMENTAL SCIENCE",
+      "Multi Disciplinary Semester 2": "ENGLISH LITERATURE",
+      "Skill Development Course": "PERSONAL SELLING AND SALESMANSHIP",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
   "statistics": {
-    "totalStudents": 302,
+    "totalStudents": 303,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4846,7 +4862,7 @@
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
-      "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 13,
+      "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
       "KU: BACHELORS (HONOURS) WITH BIO-TECHNOLOGY AS MAJOR": 12,
       "KU: BACHELORS (HONOURS) WITH CHEMISTRY AS MAJOR": 11,
       "KU: BACHELORS (HONOURS) WITH ECONOMICS AS MAJOR": 13,
@@ -4858,7 +4874,7 @@
       "WATER MANAGEMENT": 31,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
-      "POLITICAL SCIENCE": 21,
+      "POLITICAL SCIENCE": 22,
       "ZOOLOGY": 18,
       "URDU LITERATURE": 16,
       "HISTORY": 14,
@@ -4877,7 +4893,7 @@
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 27,
       "INTERNET BASICS AND HTML": 24,
-      "PERSONAL SELLING AND SALESMANSHIP": 25,
+      "PERSONAL SELLING AND SALESMANSHIP": 26,
       "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 15,
       "PHY122S-RENEWABLE ENERGY & ENERGY HARVESTING": 10,
       "TARJAMA KAERI": 8,
@@ -4886,7 +4902,7 @@
       "INTRODUCTION TO AQUACULTURE": 5
     },
     "md1Counts": {
-      "ENVIRONMENTAL SCIENCE": 77,
+      "ENVIRONMENTAL SCIENCE": 78,
       "EDUCATION": 51,
       "WATER MANAGEMENT": 49,
       "ENGLISH LITERATURE": 40,
@@ -4903,7 +4919,7 @@
     },
     "md2Counts": {
       "SOCIAL WORK": 71,
-      "ENGLISH LITERATURE": 56,
+      "ENGLISH LITERATURE": 57,
       "ENVIRONMENTAL SCIENCE": 51,
       "WATER MANAGEMENT": 27,
       "INTRODUCTION TO COMPUTERS": 22,
