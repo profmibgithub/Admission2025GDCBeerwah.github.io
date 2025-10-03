@@ -4783,18 +4783,34 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300045927",
+      "Class Roll No.": 25302,
+      "Student Name": "Faizan ahmad pala",
+      "Father Name": "Hamzullah",
+      "Mother Name": "Mehmooda",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR",
+      "Minor Course": "HISTORY",
+      "Multi Disciplinary Semester 1": "WATER MANAGEMENT",
+      "Multi Disciplinary Semester 2": "ENVIRONMENTAL SCIENCE",
+      "Skill Development Course": "PERSONAL SELLING AND SALESMANSHIP",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
     
   ],
   "statistics": {
-    "totalStudents": 299,
+    "totalStudents": 300,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
     "majorCounts": {
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
-      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 53,
+      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 54,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 19,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
@@ -4813,7 +4829,7 @@
       "POLITICAL SCIENCE": 21,
       "ZOOLOGY": 18,
       "URDU LITERATURE": 16,
-      "HISTORY": 13,
+      "HISTORY": 14,
       "BIOTECHNOLOGY": 13,
       "CHEMISTRY": 9,
       "ECONOMICS": 8,
@@ -4829,7 +4845,7 @@
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 45,
       "INTRODUCTION TO MUSHROOM SCIENCE": 26,
       "INTERNET BASICS AND HTML": 24,
-      "PERSONAL SELLING AND SALESMANSHIP": 24,
+      "PERSONAL SELLING AND SALESMANSHIP": 25,
       "PHARMACEUTICS & PHARMACEUTICAL CHEMISTRY": 15,
       "PHY122S-RENEWABLE ENERGY & ENERGY HARVESTING": 10,
       "TARJAMA KAERI": 8,
@@ -4840,7 +4856,7 @@
     "md1Counts": {
       "ENVIRONMENTAL SCIENCE": 77,
       "EDUCATION": 51,
-      "WATER MANAGEMENT": 48,
+      "WATER MANAGEMENT": 49,
       "ENGLISH LITERATURE": 39,
       "INTRODUCTION TO COMPUTERS": 29,
       "URDU LITERATURE": 19,
@@ -4856,7 +4872,7 @@
     "md2Counts": {
       "SOCIAL WORK": 70,
       "ENGLISH LITERATURE": 56,
-      "ENVIRONMENTAL SCIENCE": 49,
+      "ENVIRONMENTAL SCIENCE": 50,
       "WATER MANAGEMENT": 27,
       "INTRODUCTION TO COMPUTERS": 22,
       "BIO-TECHNOLOGY": 21,
