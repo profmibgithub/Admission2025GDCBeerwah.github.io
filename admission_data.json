@@ -4879,11 +4879,27 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300048874",
+      "Class Roll No.": 25308,
+      "Student Name": "AANISAH YOUSF",
+      "Father Name": "MOHAMMAD YOUSF RATHER",
+      "Mother Name": "SHAKEELA BANO",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR",
+      "Minor Course": "URDU LITERATURE",
+      "Multi Disciplinary Semester 1": "ARABIC LITERATURE",
+      "Multi Disciplinary Semester 2": "SOCIAL WORK",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     } 
     
   ],
   "statistics": {
-    "totalStudents": 305,
+    "totalStudents": 306,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
@@ -4891,7 +4907,7 @@
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
       "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 54,
-      "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 22,
+      "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 23,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
       "KU: BACHELORS (HONOURS) WITH HISTORY AS MAJOR": 14,
@@ -4908,7 +4924,7 @@
       "BOTANY": 22,
       "POLITICAL SCIENCE": 22,
       "ZOOLOGY": 18,
-      "URDU LITERATURE": 17,
+      "URDU LITERATURE": 18,
       "HISTORY": 14,
       "BIOTECHNOLOGY": 13,
       "CHEMISTRY": 9,
@@ -4921,7 +4937,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 73,
-      "EARLY CHILDHOOD CARE & EDUCATION": 56,
+      "EARLY CHILDHOOD CARE & EDUCATION": 57,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 46,
       "INTRODUCTION TO MUSHROOM SCIENCE": 27,
       "INTERNET BASICS AND HTML": 24,
@@ -4945,12 +4961,12 @@
       "POLITICAL SCIENCE": 5,
       "KASHMIRI LITERATURE": 4,
       "INTRODUCTION TO ACCOUNTING": 3,
-      "ARABIC LITERATURE": 2,
+      "ARABIC LITERATURE": 3,
       "ZOOLOGY": 1,
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 71,
+      "SOCIAL WORK": 72,
       "ENGLISH LITERATURE": 57,
       "ENVIRONMENTAL SCIENCE": 51,
       "WATER MANAGEMENT": 27,
