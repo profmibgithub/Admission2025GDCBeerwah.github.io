@@ -4895,18 +4895,33 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
-    } 
-    
+    } ,
+    {
+      "Registration Number": "533300013376",
+      "Class Roll No.": 25309,
+      "Student Name": "ABIDA NAZIR",
+      "Father Name": "NAZIR AHMAD SHEIKH",
+      "Mother Name": "SHAMIMA BANO",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR",
+      "Minor Course": "EDUCATION",
+      "Multi Disciplinary Semester 1": "ARABIC LITERATURE",
+      "Multi Disciplinary Semester 2": "SOCIAL WORK",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    }
   ],
   "statistics": {
-    "totalStudents": 306,
+    "totalStudents": 307,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
     "majorCounts": {
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
-      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 54,
+      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 55,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 23,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 21,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
@@ -4918,7 +4933,7 @@
     },
     "minorCounts": {
       "APPLIED COMPUTING": 71,
-      "EDUCATION": 35,
+      "EDUCATION": 36,
       "WATER MANAGEMENT": 32,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
@@ -4937,7 +4952,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 73,
-      "EARLY CHILDHOOD CARE & EDUCATION": 57,
+      "EARLY CHILDHOOD CARE & EDUCATION": 58,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 46,
       "INTRODUCTION TO MUSHROOM SCIENCE": 27,
       "INTERNET BASICS AND HTML": 24,
@@ -4961,12 +4976,12 @@
       "POLITICAL SCIENCE": 5,
       "KASHMIRI LITERATURE": 4,
       "INTRODUCTION TO ACCOUNTING": 3,
-      "ARABIC LITERATURE": 3,
+      "ARABIC LITERATURE": 4,
       "ZOOLOGY": 1,
       "BIO-TECHNOLOGY": 1
     },
     "md2Counts": {
-      "SOCIAL WORK": 72,
+      "SOCIAL WORK": 73,
       "ENGLISH LITERATURE": 57,
       "ENVIRONMENTAL SCIENCE": 51,
       "WATER MANAGEMENT": 27,
