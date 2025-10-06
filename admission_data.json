@@ -5007,17 +5007,49 @@
       "Value Added Course 2": "HEALTH AND WELLNESS",
       "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300048240",
+      "Class Roll No.": 25316,
+      "Student Name": "seerat nazir",
+      "Father Name": "nazir ahmad wani",
+      "Mother Name": "saleema bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR",
+      "Minor Course": "Education",
+      "Multi Disciplinary Semester 1": "SOCIAL WORK",
+      "Multi Disciplinary Semester 2": "WATER MANAGEMENT",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
+    },
+    {
+      "Registration Number": "533300048247",
+      "Class Roll No.": 25317,
+      "Student Name": "nargis jan",
+      "Father Name": "gulam mohi ud din dar",
+      "Mother Name": "hameeda bano",
+      "Major Course": "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR",
+      "Minor Course": "Education",
+      "Multi Disciplinary Semester 1": "SOCIAL WORK",
+      "Multi Disciplinary Semester 2": "WATER MANAGEMENT",
+      "Skill Development Course": "EARLY CHILDHOOD CARE & EDUCATION",
+      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
+      "Value Added Course 2": "HEALTH AND WELLNESS",
+      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
+      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     }
   ],
   "statistics": {
-    "totalStudents": 313,
+    "totalStudents": 314,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
     "majorCounts": {
       "KU: BACHELORS (HONOURS) WITH COMPUTER APPLICATIONS AS MAJOR": 71,
       "KU: BACHELORS (HONOURS) WITH ZOOLOGY AS MAJOR": 63,
-      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 57,
+      "KU: BACHELORS (HONOURS) WITH POLITICAL SCIENCE AS MAJOR": 59,
       "KU: BACHELORS (HONOURS) WITH EDUCATION AS MAJOR": 23,
       "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR": 24,
       "KU: BACHELORS (HONOURS) WITH SOCIAL WORK AS MAJOR": 15,
@@ -5029,7 +5061,7 @@
     },
     "minorCounts": {
       "APPLIED COMPUTING": 71,
-      "EDUCATION": 36,
+      "EDUCATION": 38,
       "WATER MANAGEMENT": 33,
       "SOCIAL WORK": 24,
       "BOTANY": 22,
@@ -5048,7 +5080,7 @@
     },
     "skillCounts": {
       "PROGRAMMING WITH C (BASIC)": 73,
-      "EARLY CHILDHOOD CARE & EDUCATION": 59,
+      "EARLY CHILDHOOD CARE & EDUCATION": 61,
       "BIOLOGY, BREEDING, AND REARING OF ORNAMENTAL FISH": 48,
       "INTRODUCTION TO MUSHROOM SCIENCE": 27,
       "INTERNET BASICS AND HTML": 24,
@@ -5074,13 +5106,14 @@
       "INTRODUCTION TO ACCOUNTING": 3,
       "ARABIC LITERATURE": 5,
       "ZOOLOGY": 1,
-      "BIO-TECHNOLOGY": 1
+      "BIO-TECHNOLOGY": 1,
+      "SOCIAL-WORK": 3
     },
     "md2Counts": {
       "SOCIAL WORK": 76,
       "ENGLISH LITERATURE": 57,
       "ENVIRONMENTAL SCIENCE": 53,
-      "WATER MANAGEMENT": 27,
+      "WATER MANAGEMENT": 29,
       "INTRODUCTION TO COMPUTERS": 23,
       "BIO-TECHNOLOGY": 21,
       "URDU LITERATURE": 18,
