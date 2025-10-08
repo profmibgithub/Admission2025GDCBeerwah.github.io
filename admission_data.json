@@ -4977,22 +4977,6 @@
       "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
     },
     {
-      "Registration Number": "533300049528",
-      "Class Roll No.": 25315,
-      "Student Name": "Shaista Rasool",
-      "Father Name": "Ghulam Rasool Wani",
-      "Mother Name": "Hajra Baigum",
-      "Major Course": "KU: BACHELORS (HONOURS) WITH BOTANY AS MAJOR",
-      "Minor Course": "WATER MANAGEMENT",
-      "Multi Disciplinary Semester 1": "URDU LITERATURE",
-      "Multi Disciplinary Semester 2": "SOCIAL WORK",
-      "Skill Development Course": "INTRODUCTION TO AQUACULTURE",
-      "Value Added Course 1": "ENVIRONMENTAL SCIENCE / EDUCATION",
-      "Value Added Course 2": "HEALTH AND WELLNESS",
-      "Ability Enhancement Course 1": "COMMUNICATION SKILLS",
-      "Ability Enhancement Course 2": "ENGLISH LANGUAGE"
-    },
-    {
       "Registration Number": "533300048240",
       "Class Roll No.": 25316,
       "Student Name": "seerat nazir",
@@ -5026,7 +5010,7 @@
     }
   ],
   "statistics": {
-    "totalStudents": 314,
+    "totalStudents": 313,
     "uniqueMajors": 11,
     "uniqueMinors": 17,
     "uniqueSkillCourses": 12,
